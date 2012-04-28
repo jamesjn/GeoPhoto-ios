@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1433E472A6FF43C7AB082A14 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27532F7EF4C444818F108233 /* libPods.a */; };
 		6E8D4562154CA38B00E71CD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8D4561154CA38B00E71CD0 /* UIKit.framework */; };
 		6E8D4564154CA38B00E71CD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8D4563154CA38B00E71CD0 /* Foundation.framework */; };
 		6E8D4566154CA38B00E71CD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8D4565154CA38B00E71CD0 /* CoreGraphics.framework */; };
 		6E8D456C154CA38B00E71CD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E8D456A154CA38B00E71CD0 /* InfoPlist.strings */; };
 		6E8D456E154CA38B00E71CD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D456D154CA38B00E71CD0 /* main.m */; };
 		6E8D4572154CA38B00E71CD0 /* GeoPhotoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D4571154CA38B00E71CD0 /* GeoPhotoAppDelegate.m */; };
+		6E8D4584154CA42F00E71CD0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8D4583154CA42F00E71CD0 /* MapKit.framework */; };
+		6E8D4587154CA43900E71CD0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8D4586154CA43900E71CD0 /* CoreLocation.framework */; };
+		6E8D458A154CA45C00E71CD0 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D4589154CA45C00E71CD0 /* Photo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AD1777386C54AF09878E1F1 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		27532F7EF4C444818F108233 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E8D455D154CA38B00E71CD0 /* GeoPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E8D4561154CA38B00E71CD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6E8D4563154CA38B00E71CD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6E8D4565154CA38B00E71CD0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6E8D4569154CA38B00E71CD0 /* GeoPhoto-Info.plist */ = {isa = PBXFileReference; path = "GeoPhoto-Info.plist"; sourceTree = "<group>"; };
+		6E8D4569154CA38B00E71CD0 /* GeoPhoto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoPhoto-Info.plist"; sourceTree = "<group>"; };
 		6E8D456B154CA38B00E71CD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6E8D456D154CA38B00E71CD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6E8D456F154CA38B00E71CD0 /* GeoPhoto-Prefix.pch */ = {isa = PBXFileReference; path = "GeoPhoto-Prefix.pch"; sourceTree = "<group>"; };
-		6E8D4570154CA38B00E71CD0 /* GeoPhotoAppDelegate.h */ = {isa = PBXFileReference; path = GeoPhotoAppDelegate.h; sourceTree = "<group>"; };
+		6E8D456F154CA38B00E71CD0 /* GeoPhoto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoPhoto-Prefix.pch"; sourceTree = "<group>"; };
+		6E8D4570154CA38B00E71CD0 /* GeoPhotoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoPhotoAppDelegate.h; sourceTree = "<group>"; };
 		6E8D4571154CA38B00E71CD0 /* GeoPhotoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoPhotoAppDelegate.m; sourceTree = "<group>"; };
+		6E8D4583154CA42F00E71CD0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6E8D4586154CA43900E71CD0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6E8D4588154CA45C00E71CD0 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		6E8D4589154CA45C00E71CD0 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,9 +43,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E8D4587154CA43900E71CD0 /* CoreLocation.framework in Frameworks */,
+				6E8D4584154CA42F00E71CD0 /* MapKit.framework in Frameworks */,
 				6E8D4562154CA38B00E71CD0 /* UIKit.framework in Frameworks */,
 				6E8D4564154CA38B00E71CD0 /* Foundation.framework in Frameworks */,
 				6E8D4566154CA38B00E71CD0 /* CoreGraphics.framework in Frameworks */,
+				1433E472A6FF43C7AB082A14 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,9 +58,14 @@
 		6E8D4552154CA38B00E71CD0 = {
 			isa = PBXGroup;
 			children = (
+				6E8D4588154CA45C00E71CD0 /* Photo.h */,
+				6E8D4589154CA45C00E71CD0 /* Photo.m */,
+				6E8D4586154CA43900E71CD0 /* CoreLocation.framework */,
+				6E8D4583154CA42F00E71CD0 /* MapKit.framework */,
 				6E8D4567154CA38B00E71CD0 /* GeoPhoto */,
 				6E8D4560154CA38B00E71CD0 /* Frameworks */,
 				6E8D455E154CA38B00E71CD0 /* Products */,
+				0AD1777386C54AF09878E1F1 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +83,7 @@
 				6E8D4561154CA38B00E71CD0 /* UIKit.framework */,
 				6E8D4563154CA38B00E71CD0 /* Foundation.framework */,
 				6E8D4565154CA38B00E71CD0 /* CoreGraphics.framework */,
+				27532F7EF4C444818F108233 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -100,6 +119,7 @@
 				6E8D4559154CA38B00E71CD0 /* Sources */,
 				6E8D455A154CA38B00E71CD0 /* Frameworks */,
 				6E8D455B154CA38B00E71CD0 /* Resources */,
+				7E9710AAED814C7CA5187B97 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +166,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7E9710AAED814C7CA5187B97 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E8D4559154CA38B00E71CD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -153,6 +190,7 @@
 			files = (
 				6E8D456E154CA38B00E71CD0 /* main.m in Sources */,
 				6E8D4572154CA38B00E71CD0 /* GeoPhotoAppDelegate.m in Sources */,
+				6E8D458A154CA45C00E71CD0 /* Photo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,22 +253,30 @@
 		};
 		6E8D4576154CA38B00E71CD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD1777386C54AF09878E1F1 /* Pods.xcconfig */;
 			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GeoPhoto/GeoPhoto-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "GeoPhoto/GeoPhoto-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		6E8D4577154CA38B00E71CD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD1777386C54AF09878E1F1 /* Pods.xcconfig */;
 			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GeoPhoto/GeoPhoto-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "GeoPhoto/GeoPhoto-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -254,6 +300,7 @@
 				6E8D4577154CA38B00E71CD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
